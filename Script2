@@ -1,0 +1,4 @@
+head (faithful) 
+duration = faithful$eruptions
+waiting = faithful$waiting
+plot(duration, waiting, xlab="Eruption duration", ylab="Time waited")
