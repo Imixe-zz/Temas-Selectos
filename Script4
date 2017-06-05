@@ -1,0 +1,5 @@
+library(maps)
+library(mapdata)
+map('worldHires','Mexico')
+cities <- read.csv(file.choose(), header = TRUE)
+points(cities$longitude, cities$latitude, col = "red", cex = .6)
